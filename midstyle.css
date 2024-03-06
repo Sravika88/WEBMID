@@ -1,0 +1,246 @@
+*{
+    margin:5px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.main{
+    text-align:center;
+    border: 3px solid rgb(78, 154, 139);
+    height: 50px;
+    background-color: #286d6f;
+    color:rgb(4, 219, 238);
+    width:100%;
+
+}
+  .navbar{
+    height: 50px;
+    background-color: #99c6d4;
+    width:100%;
+    border: 3px solid rgb(76, 152, 165);
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-around;  
+  }
+  
+.navbar a {
+    color: rgb(79, 93, 228);
+
+}
+
+  
+  .about{
+    display: flex;
+    padding:50px;
+    align-content: center;
+  }
+  
+  .abt{
+    height: 50px;
+    width: 500px;
+    display: inline-block;
+    text-align:center;
+  }
+  .abt1{
+    line-height: 20px;
+    color: #060f11;
+    display:inline-block;
+    padding:50px;
+    font-size: 20px;
+
+  }
+  #About{
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    border: 3px solid rgb(145, 169, 214);
+    color: #2B616D;
+  }
+  .h400{
+    height: 350px;
+    background-color: rgb(171, 200, 226);
+    color: #06010e;
+    display: inline-block
+  }
+  img{
+    border: 3px solid rgb(22, 78, 183);
+ 
+
+  }
+ 
+  #Papers{
+    height:auto;
+    width: 100%;
+    border: 3px solid rgb(145, 169, 214);
+    background-color: rgb(171, 200, 226);
+    padding:20px;
+  }
+  .paper1{
+      padding:20px;
+      display:grid;
+      justify-content: center;
+      align-content: center;
+      grid-gap:1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #Hobbies{ 
+    height:auto;
+    background-color:rgb(171, 200, 226);
+    width:100%;
+    border: 3px solid rgb(145, 169, 214);
+    color: #2B616D;
+  }
+  .hobbies1{
+    padding:20px;
+    text-align:center;
+    justify-content: space-around;
+    display:flex;
+  }
+
+  #Experience{
+    height:auto;
+    background-color:rgb(171, 200, 226);
+    width:100%;
+    font-size: 20px;
+    border: 3px solid rgb(145, 169, 214);
+    color: #2B616D;
+  
+  }
+  #Blogs{
+    height:auto;
+    background-color: rgb(171, 200, 226);
+    width:100%;
+    font-size: 20px;
+    border: 3px solid rgb(145, 169, 214);  
+  }
+  .blogs1 {
+    padding:10px;
+  }
+  @media only screen and (max-width: 700px) {
+    main {
+      display: flex;
+    }
+    .navbar{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: space-around;
+        height:auto;
+    }
+
+    .about {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .abt{
+        display: table;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .abt1 {
+        display: table;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+      }
+    .experience {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .hobbies {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .papers {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .hobbies1{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr;
+        align-content:center;
+    }
+    .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        grid-template-columns: 1fr;
+        align-content:center;
+      }
+
+      .blogs1 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+}
+
+@media only screen and (max-width: 1400px) {
+    .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
+@media only screen and (max-width: 1100px) {
+      .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+      }
+      .hobbies1 {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+ 
+}
+@media only screen and (max-width: 900px) {
+    .paper1 {
+      display:grid;
+      grid-gap:1rem;
+      text-align: center;
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+      .hobbies1 {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+@media only screen and (max-width: 700px) {
+    .hobbies1{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+    .paper1 {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 0.5fr;
+        align-content: center;
+      }
+    }
